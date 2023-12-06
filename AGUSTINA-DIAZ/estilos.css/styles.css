@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*<header>*/
+a:hover {
+    color: #7e7b52e3;
+}
+header {
+    background-color: #000000;
+    text-align: center;
+}
+.logo {
+    width: 400px;
+    height: 400px;
+}
+.menu {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 40px;    
+}
+
+/*</header>*/
+
+/*<main>*/
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.imagen {
+    width: 100%;
+}
+.row {
+    display: flex;
+    padding: 5px;
+}
+.column {
+    flex: 25%;
+    padding: 5px;
+
+}
+.column img {
+    margin-top: 5px;
+}
+
+.slider-box {
+    width: 600px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 12s infinite alternate ease-in-out;
+}
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.slider-box img {
+    width: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0;}
+    30% {margin-left: 0;}
+
+    35% {margin-left: -100%;}
+    65% {margin-left: -100%;}
+
+ 70% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+}
+@media (max-width: 991px) {
+    body {
+        padding: 30px;
+    }
+    .slider-box {
+        width: 340px;
+    }
+
+}
+.fs-4 {
+    text-align: center;
+}
+.fs-2 {
+    text-align: center;
+}
+.ubicacion {
+    margin: 0 auto;
+    display: block;
+}
+/*</main>*/
+
+/*<footer>*/
+footer {
+    background-color: #000000;
+}
+.wsp { 
+    width: 3rem;
+}
+.fondo-wsp {
+    background-color: #000000;
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+}
+.fs-5 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.fs-6 { 
+    text-align: center;
+}
+/*</footer>*/
